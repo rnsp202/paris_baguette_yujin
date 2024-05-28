@@ -1,0 +1,210 @@
+body {
+}
+main header {
+    width: 100%; height: 56px;
+    background-color: #023586;
+    padding: 16px 16px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+main header .left {}
+main header .left .logo {}
+main header .left .logo img {}
+main header .right {}
+main header .right a {
+    width: 38px;
+    display: inline-block;
+    text-align: center;
+}
+main header .right a img {
+    display: inline-block;
+}
+main header .right a span {
+    font-size: 0.625em; color: rgb(255,255,255);
+    display: inline-block;
+}
+/* 공통------------------------------ */
+main {
+    position: relative;
+    width: 430px; height: 2088px;
+    background-color: #E6D9B7;
+    margin: 20px auto 0;
+}
+main .bg {width: 100%;}
+main .bg section {
+    width: 398px; margin: 0 auto 0;
+}
+main .bg section .whiteT {
+    font-size: 1em; color: #fff;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+main .bg section .title_deco {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+main .bg section .title_deco .blueT {
+    display: inline-block;
+    font-size: 2em; font-weight: 700;
+    color: #023586;
+}
+main .bg section .title_deco .line{
+    display: inline-block;
+    width: 120px; height: 1px; background-color: #fff;
+}
+/* ------------------------------ */
+main .bg1 {
+    height: 206px;
+    background-image: url(../images/bg001.jpg);
+}
+main .bg1 section {
+    text-align: center;
+}
+main .bg1 section h1 {
+    padding: 10px 0;
+}
+main .bg1 section h1 img {}
+main .bg1 section h2 {}
+main .bg1 section h2 img {}
+main .bg1 section .title {
+    padding-top: 5px;
+    font-size: 1.25em; font-weight: 700;
+    color: #023586;
+}
+/* ------------------------------ */
+main .bg2 {
+    margin-top: 90px;
+    height: 271px;
+    background-image: url(../images/bg002.jpg);
+}
+main .bg2 section {}
+main .bg2 section .whiteT {}
+main .bg2 section .title_deco {}
+main .bg2 section .title_deco .blueT {}
+main .bg2 section .title_deco .line {width: 245px;}
+main .bg2 section > p {
+    font-size: 0.75em; margin: 5px 5px;
+    font-weight: 600;
+    line-height: 150%;
+}
+/* ------------------------------ */
+main .bg3 {
+    margin-top: 70px;
+}
+main .bg3 section {
+    text-align: center;
+}
+main .bg3 section .whiteT {}
+main .bg3 section .title_deco {}
+main .bg3 section .title_deco .blueT {}
+main .bg3 section .title_deco .line {}
+main .bg3 section ul {
+    width: 100%;
+    margin: 15px 0;
+}
+main .bg3 section ul li {
+    display: flex;
+    justify-content: space-between;
+}
+main .bg3 section ul li img {}
+main .bg3 section > p {
+    font-size: 0.75em; margin: 5px 5px;
+    font-weight: 600;
+    line-height: 150%;
+}
+/* ------------------------------ */
+main .bg4 {
+    margin-top: 80px;
+}
+main .bg4 section {
+    text-align: center;
+}
+main .bg4 section .whiteT {}
+main .bg4 section .title_deco {}
+main .bg4 section .title_deco .blueT {}
+main .bg4 section .title_deco .line {width: 130px;}
+main .bg4 section ul {
+    height: 730px;
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+main .bg4 section ul li {
+    width: 123px;
+}
+main .bg4 section ul li h3 {
+    height: 106px; background-color: #fff;
+    align-content: center;
+    border-radius: 5px 5px 0 0;
+}
+main .bg4 section ul li h3 img {}
+main .bg4 section ul li div {
+    display: flex;
+    flex-flow: row;
+    height: 66px;
+    padding: 8px;
+    background-color: #023586;
+    text-align: left;
+    border-radius: 0 0 5px 5px;
+}
+main .bg4 section ul li div .num {
+    display: inline-block;
+    text-align: center;
+    width: 20px; height: 20px;
+    border-radius: 10px;
+    color: #023586;
+    background-color: #fff;
+    margin-right: 6px;
+    font-size: 0.9em; font-weight: 700;
+    padding-top: 0;
+}
+main .bg4 section ul li div p {
+    width: 84px;
+    display: inline-block;
+    color: #fff;
+    font-size: 0.65em; font-weight: 400;
+    line-height: 120%;
+}
+main .bg4 section .sub {
+    
+}
+main .bg4 section a {}
+main .bg4 section a #btn {
+    margin-top: 40px;
+    display: inline-block;
+    width: 175px; height: 36px;
+    background-color: #023586;
+    border-radius: 25px;
+    font-weight: 500; color: #fff;
+    line-height: 36px;
+}
+/* ------------------------------ */
+nav {
+    position: absolute; bottom: 0;
+    width: 100%; height: 56px;
+    background-color: #023586;
+    padding: 16px 60px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    width: 54px;
+    display: inline-block;
+    text-align: center;
+}
+nav a img {
+    display: inline-block;
+}
+nav a span{
+    font-size: 0.625em; color: rgb(255,255,255);
+    display: inline-block;
+}

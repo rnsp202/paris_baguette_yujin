@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>파리바게뜨 | 가맹점 상담신청</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+    </style>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/request.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div class="left"><a href="#" class="logo"><img src="./images/logo_white.png" alt="파리바게뜨"></a></div>
+            <div class="right">
+                <a href="#" class="magazine"><img src="./images/magazine.svg" alt="매거진"><span>매거진</span></a>
+                <a href="#" class="story"><img src="./images/story.svg" alt="이야기"><span>이야기</span></a>
+                <a href="#" class="bakery"><img src="./images/bakery_dining.svg" alt="제품소개"><span>제품소개</span></a>
+                <a href="#" class="search"><img src="./images/search.svg" alt="검색"><span>검색</span></a>
+            </div>
+        </header>
+        <form action="#" method="post" id="request">
+            <fieldset class="request_in">
+                <legend class="skip"></legend>
+                <h1>가맹점 상담신청</h1>
+                <div class="descript">
+                    <p>개설절차는 상담 후 더 자세하게 진행됩니다.</p>
+                    <p>*항목은 필수입력사항입니다.</p>
+                </div>
+                <dl class="request_form">
+                    <dt>이름<em>*</em></dt>
+                    <dd><input type="text" name="username" id="name"></dd>
+                    <dt>휴대폰번호<em>*</em></dt>
+                    <dd><input type="number" name="userphone" id="phone" placeholder="숫자만 입력하세요" required></dd>
+                    <dt>이메일<em>*</em></dt>
+                    <dd>
+                        <input type="text" name="email_front" id="email_front" required>
+                        <span>@</span>
+                        <select name="email_tail" id="email_tail">
+                            <option value="google">google.com</option>
+                            <option value="naver">naver.com</option>
+                            <option value="kakako">kakako.com</option>
+                            <option value="hanmail">hanmail.net</option>
+                            <option value="etc">직접 입력</option>
+                        </select>
+                    </dd>
+                    <dt>창업희망지역<em>*</em></dt>
+                    <dd><input type="text" name="where" id="where" required></dd>
+                    <dt>신청계기</dt>
+                    <dd>
+                        <ul>
+                            <li>
+                                <input type="checkbox" name="how" value="internet" id="how_internet"><label for="how_internet">인터넷 검색</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="how" value="market" id="how_market"><label for="how_market">매장 방문</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="how" value="person" id="how_person"><label for="how_person">지인 소개</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="how" value="conselt" id="how_conselt"><label for="how_conselt">컨설팅/부동산</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="how" value="etc" id="how_etc"><label for="how_etc">기타</label>
+                            </li>
+                        </ul>
+                    </dd>
+                    <dt>제목<em>*</em></dt>
+                    <dd><input type="text" name="user_title" id="user_title" required></dd>
+                    <dt>내용<em>*</em></dt>
+                    <dd><textarea name="user_content" id="user_content" cols="30" rows="10"></textarea></dd>
+                </dl>
+                <button type="submit" id="counsel_let">상담 신청하기</button>
+            </fieldset>
+        </form>
+        <nav>
+            <a href="./index.html"><img src="./images/info_icon.svg" alt="매장소개"><span>매장소개</span></a>
+            <a href="#"><img src="./images/phone.svg" alt="상담신청"><span>상담신청</span></a>
+            <a href="#"><img src="./images/delivery.svg" alt="배송"><span>배송서비스</span></a>
+            <a href="#"><img src="./images/promotion.svg" alt="프로모션"><span>프로모션</span></a>
+        </nav>
+    </main>
+</body>
+</html>
